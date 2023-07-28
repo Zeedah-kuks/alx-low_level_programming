@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry point of prog
- * Return: Always 0 (Success)
+ * main - Entry point of Prog
+ * Return: Alwaya 0 (Success)
  */
 
 int main(void)
 {
-		char g;
+		char d;
 
-		g = 'a';
+		d = 'a';
 		while
-			(g <= 'z') {
-				if ((g != 'q' && g != 'e') && g <= 'z') putchar(g);
-				g++;
+			(d <= 'z') {
+				if ((d != 'q' && d != 'e') && d <= 'z') 
+					putchar(d);
+				d++;
 			}
 		putchar('\n');
 		return (0);
