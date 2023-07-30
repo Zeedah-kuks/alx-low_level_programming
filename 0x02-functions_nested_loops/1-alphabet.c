@@ -1,19 +1,21 @@
 #include "main.h"
-#include <unistd.h>
 
 /**
- * print_alphabet - Entry point of prog
- * Return: Always 0 (Success)
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	char g = 'a';
+	char alp = 'a';
 
-	while (g <= 'z')
+	while (alp <= 'z')
 	{
-		_putchar(g);
-		g++;
+		_putchar (alp);
+		alp++;
+
 	}
-	_putchar('\n');
+	_putchar ('\n');
+
 }
