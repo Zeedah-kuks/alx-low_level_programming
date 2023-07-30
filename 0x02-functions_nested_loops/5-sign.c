@@ -4,7 +4,7 @@
  *
  * @m: the int to be checked
  *
- * 1 and prints + if m is greater than zero
+ * Return: 1 and prints + if m is greater than zero
  * 
  * 0 and prints 0 if m is zero
  *
