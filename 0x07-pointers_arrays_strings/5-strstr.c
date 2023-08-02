@@ -7,18 +7,18 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	for (; *haystack != '\0'; hatstack++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		char *k = haystack;
-		char *l = needle;
+		char *l = haystack;
+		char *p = needle;
 
-		while (*k == *l && *l != '\0')
+		while (*l == *p && *p != '\0')
 		{
-			k++;
 			l++;
+			p++;
 		}
 
-		if (*l == '\0')
+		if (*p == '\0')
 			return (haystack);
 	}
 
