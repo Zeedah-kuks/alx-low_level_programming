@@ -1,5 +1,6 @@
 This directory 0x08.C- Recursions contains the solution to 7 mandatory tasks and 2 advanced tasks on C programming language.
-                      MANDATORY TASKS
+                      
+                                 MANDATORY TASKS
 0. She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
 -Write a function that prints a string, followed by a new line.
 
@@ -20,7 +21,8 @@ This directory 0x08.C- Recursions contains the solution to 7 mandatory tasks and
 
 6. Inception. Is it possible?
 -Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
-                       ADVANCED TASKS
+                       
+                                 ADVANCED TASKS
 7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything
 -Write a function that returns 1 if a string is a palindrome and 0 if not.
 
