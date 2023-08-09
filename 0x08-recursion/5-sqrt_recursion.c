@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * sqrt_d - This prog will return the natural sqrt of a number
- * @n: The input number
- * @f: The iterator
+ * sqrt_d - This prog will recurse to find the natural sqrt of a number
+ * @d: input number
+ * @e: input number
  * Return: The result of square root or -1
  */
 int sqrt_d(int d, int e)
