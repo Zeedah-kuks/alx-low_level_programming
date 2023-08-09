@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * sqrt_d - This prog will return the natural sqrt of the number
+ * sqrt_d - This prog will return the natural sqrt of a number
  * @n: The input number
- * @d: The iterator
- * Return: The result of square root
+ * @f: The iterator
+ * Return: The result of square root or -1
  */
 int sqrt_d(int d, int e)
 {
@@ -11,15 +11,15 @@ int sqrt_d(int d, int e)
 	{
 		return (e);
 	}
-	else if (e * e > 4)
+	else if (e * e > d)
 	{
 		return (-1);
 	}
 	return (sqrt_d(d, e + 1));
 }
 /**
- * _sqrt_recursion - This prog will return the natural sqrt of the number
- * @n: The int to be inputed
+ * _sqrt_recursion - This prog will return the natural sqrt of a number
+ * @n: The input number
  * Return: The result of square root
  */
 int _sqrt_recursion(int n)
