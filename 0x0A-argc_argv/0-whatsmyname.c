@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - print the name of the prog, followed by a new line
  * @argc: number of commamd line arguments
