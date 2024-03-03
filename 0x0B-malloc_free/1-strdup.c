@@ -18,7 +18,7 @@ char *_strdup(char *str)
 	}
 
 	m = 0;
-	while (str[m] != '\n')
+	while (str[m] != '\0')
 	{
 		m++;
 	}
